@@ -1,0 +1,20 @@
+programa {
+  funcao inicio() {
+    inteiro A, B, C, D, S, R
+    caracter Nome
+    escreva("Olá, me informe seu nome")
+    leia(Nome)
+    escreva("Olá" Nome ", vamos aos cálculos")
+    escreva("Me informe o primeiro número inteiro")
+    leia(A)
+    escreva("Me informe o segundo número inteiro")
+    leia(B)
+    escreva("Me informe o terceiro número inteiro")
+    leia(C)
+    R = (A + B)^2
+    S = (B + C)^2
+    D = (R + S)/2
+  }
+}
+
+Programado em Portugol
